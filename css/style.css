@@ -8,7 +8,7 @@
     list-style-type: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
+    
 }
 body{
     background: #F3F1FF;
@@ -182,6 +182,7 @@ hr{
 /* appling media quries for responsive site */
 
 @media only screen and (max-width: 600px) {
+
     .container,.containers{
         width: 100%;
         margin: 0 auto;
