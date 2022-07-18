@@ -8,6 +8,7 @@
     list-style-type: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 body{
     background: #F3F1FF;
@@ -180,3 +181,38 @@ hr{
 
 /* appling media quries for responsive site */
 
+@media only screen and (max-width: 600px) {
+    .container,.containers{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .players__wrapping,.blog__wrapping{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .players,.blog__wrapping{
+        flex-direction: row;
+        align-items: center;
+        justify-content:flex-start;
+        
+    }
+     .course__wrapping{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+       
+     }
+     .nav{
+        padding: 0 30px;
+     }
+     .logo__img{
+        height: 30px;
+        width: 30px;
+     }
+     .logo__name{
+        font-size: 18px;
+     }
+     .menu ul li{
+        margin-right: 15px;
+    }
+    }
+        
+    
